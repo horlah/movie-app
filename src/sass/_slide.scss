@@ -1,0 +1,30 @@
+.ios {
+    ion-slide {
+        margin-top: 40px !important;
+    }
+}
+
+ion-slide {
+    height: 45vh !important;
+    background: url(/assets/img/avengers_end-game.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 225px !important;
+    margin-right: 16px;
+    border-radius: 20px;
+    justify-content: space-between !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    margin-top: 20px !important;
+    box-shadow: -1px 0px 10px -6px;
+
+    ion-icon, h4, ion-chip {
+        color: white;
+    }
+
+    ion-chip {
+        background: rgba(black, .6) !important;
+        margin-top: 20px;
+    }
+}

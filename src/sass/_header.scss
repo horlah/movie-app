@@ -1,0 +1,7 @@
+.header-md:after {
+    content: none;
+}
+
+.header-ios ion-toolbar:last-child {
+    --border-width: 0;
+}

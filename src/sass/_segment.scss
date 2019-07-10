@@ -1,0 +1,16 @@
+ion-segment-button {
+    --indicator-color-checked: transparent;
+    --color: rgb(160, 157, 157);
+    --color-activated: #000;
+    --color-checked: #000;
+    font-size: 1.1rem;
+    text-transform: initial;
+    transition: all .3s;
+    --border-width: 0;
+    --padding-start: 16px;
+    --padding-end: 16px;
+
+    &.segment-button-checked {
+        transform: scale(1.2, 1.2);
+    }
+}
