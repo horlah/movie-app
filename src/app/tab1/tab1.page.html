@@ -33,8 +33,8 @@
         </ion-segment-button>
     </ion-segment>
 
-    <ion-slides [options]="slideOpts">
-        <ion-slide *ngFor="let movie of movies" [style.background-image]="'url(' + movie.image + ')'">
+    <div class="slides">
+        <div class="slide" (click)="viewDetails(movie)" *ngFor="let movie of movies" [style.background-image]="'url(' + movie.image + ')'">
             <ion-chip>
                 <ion-icon name="star"></ion-icon>
                 <ion-label>{{movie.stars}}</ion-label>
@@ -44,6 +44,6 @@
                     <h4 padding>{{movie.title}}</h4>
                 </ion-label>
             </ion-chip> -->
-        </ion-slide>
-    </ion-slides>
+        </div>
+    </div>
 </ion-content>
