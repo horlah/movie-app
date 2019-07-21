@@ -1,20 +1,4 @@
-ion-toolbar {
-    --padding-top: 40px;
-    --padding-start: 25px;
-    --background: transparent;
-}
-
-ion-back-button {
-    --background: rgba(var(--ion-color-primary-rgb, .2));
-    --color: var(--ion-color-primary-contrast,#3880ff);
-    --border-radius: 50px;
-    width: 30px;
-    height: 30px;
-    --icon-font-size: 1.3em;
-}
-
 ion-content {
-    --offset-top: 76px !important;
     --color: var(--ion-color-primary-contrast);
 
     .container {

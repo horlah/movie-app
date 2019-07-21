@@ -6,7 +6,7 @@
     </ion-toolbar>
 </ion-header>
 
-<ion-content *ngIf="movieDetails">
+<ion-content *ngIf="movieDetails" class="move-top">
     <div class="container" [style.background-image]="'url(' + movieDetails.image + ')'">
         <div margin class="details">
             <ion-text>
@@ -31,7 +31,8 @@
                 dolorem vitae repellendus iste dolor cumque!</p>
             </ion-text>
 
-            <ion-button expand="block" shape="round">Buy Ticket</ion-button>
+            <ion-button expand="block" shape="round" color="light" fill="outline" (click)="showReview()">Reviews</ion-button>
+            <ion-button expand="block" shape="round" margin-top (click)="showCinemaOptions()">Buy Ticket</ion-button>
         </div>
     </div>
 </ion-content>

@@ -1,0 +1,56 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-button (click)="closeModal()">
+                <ion-icon slot="icon-only" name="arrow-back"></ion-icon>
+            </ion-button>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content class="move-top">
+    <div class="movie-img">
+        <ion-fab vertical="bottom" size="small" edge horizontal="end">
+            <ion-fab-button color="light">
+                <ion-icon name="play"></ion-icon>
+            </ion-fab-button>
+        </ion-fab>
+    </div>
+
+    <div class="clear"></div>
+
+    <div class="details">
+        <ion-text>
+            <h3>Toy Story 4</h3>
+        </ion-text>
+        <p>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+        </p>
+
+    </div>
+
+    <div class="reviews">
+        <ion-list>
+            <ion-item>
+                <ion-avatar slot="start">
+                    <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
+                </ion-avatar>
+                <ion-label>
+                    <ion-text>
+                        <h3>User 101</h3>
+                    </ion-text>
+                    <ion-text>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ducimus est dolor
+                        doloremque perspiciatis facere, a eligendi non maiores itaque autem quae voluptate
+                        aliquid iusto aperiam eius. Voluptates, facere aliquid.</p>
+                    </ion-text>
+                </ion-label>
+            </ion-item>
+        </ion-list>
+    </div>
+
+</ion-content>

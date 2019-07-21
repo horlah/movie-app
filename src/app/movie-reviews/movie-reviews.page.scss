@@ -1,0 +1,19 @@
+.movie-img {
+    height: 50vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-image: url('/assets/img/toy_story.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0 0 0 50px;
+}
+
+.clear {
+    margin-top: 43vh;
+}
+
+.details {
+    margin-left: 16px;
+}
